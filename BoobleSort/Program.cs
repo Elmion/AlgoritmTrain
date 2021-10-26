@@ -26,6 +26,14 @@ namespace BoobleSort
 			a3 = QuickSortRecurse(a3);
 			t.Stop();
 			Console.WriteLine($"Quick: {t.ElapsedTicks}");
+
+
+
+
+
+
+
+
 		}
 
 		static void BoobleSort(int[] sortingMassive)

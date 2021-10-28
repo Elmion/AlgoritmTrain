@@ -52,8 +52,10 @@ namespace BoobleSort
 
 			} while (unsorted);
 		}
+
 		private static int[] QuickSortRecurse(int[] sortingMassive)
 		{
+
 			if (sortingMassive.Length <= 1) return sortingMassive;
 			int posPivot = rnd.Next(sortingMassive.Length );
 			int pivot = sortingMassive[posPivot];
